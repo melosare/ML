@@ -51,7 +51,7 @@ error_val   = zeros(m, 1);
 %       end
 %
 
-% ---------------------- Sample Solution ----------------------
+
 
 for i = 1:m
     theta_params = trainLinearReg(X(1:i,:),y(1:i),lambda);
